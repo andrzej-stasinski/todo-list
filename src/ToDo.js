@@ -1,4 +1,5 @@
-
+import Task from './Task'
+import Form from './Form'
 class ToDo {
     constructor(storageKey) {
         this.storageKey = storageKey || 'todo'
@@ -75,6 +76,8 @@ class ToDo {
         return this.container
     }
 }
+
+export default ToDo
 
 
 

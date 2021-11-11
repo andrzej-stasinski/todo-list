@@ -1,5 +1,4 @@
 
-
 class Input {
     constructor(text, onChange) {
         this.text = text 
@@ -22,6 +21,7 @@ class Input {
         return input
     }
 }
+export default Input
 
 
 

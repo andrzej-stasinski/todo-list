@@ -1,4 +1,4 @@
-
+import Button from './Button'
 class Task {
     constructor(task, onComplete, onDelete) {
         this.task = task 
@@ -35,6 +35,7 @@ class Task {
         return container
     }
 }
+export default Task
 
 
 
