@@ -6,7 +6,6 @@ class Task {
         this.onDelete = onDelete
     }
     render() {
-        console.log(this.task)
         const container = document.createElement('div')
         const p = document.createElement('p')
         const deleteButton = new Button('Delete', this.onDelete)
@@ -19,8 +18,6 @@ class Task {
         container.style.marginBottom = '4px'
         container.style.padding = '4px'
         container.style.borderRadius = '4px'
-
-        console.log('stop', this.task)
 
         if(this.task.isComplete) {
             p.style.textDecoration = 'line-through'
